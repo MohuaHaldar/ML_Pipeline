@@ -1,0 +1,10 @@
+# api
+flask==1.0.2
+# local model package
+
+-e "C:\MyData\ML_Models\deploy_titanic\packages\regression_models"
+
+# to run the api test: pip install -r package\mi_api\requirements.txt in the vir. env.
+
+# schema validation
+marshmallow==2.17.0
